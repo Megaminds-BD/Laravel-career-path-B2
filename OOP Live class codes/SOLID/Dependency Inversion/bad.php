@@ -1,9 +1,5 @@
 <?php
 
-// High level class shouldn't be dependent on Low level class
-
-
-
 class PayPalPayment {
     public function processPayment($amount) {
         // PayPal-specific payment logic

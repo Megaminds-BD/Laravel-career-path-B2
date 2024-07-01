@@ -1,9 +1,5 @@
 <?php
 
-// Liskov Substitution Principle
-
-// Child class must follow all the behaviours of Parent class
-
 class File {
     public function read()
     {
@@ -12,7 +8,7 @@ class File {
 
     public function write()
     {
-        //
+
     }
 }
 

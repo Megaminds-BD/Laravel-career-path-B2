@@ -1,7 +1,5 @@
 <?php
 
-// Open for extension, Closed for modification
-
 class PaymentProcessor {
     public function processPayment($amount, $paymentType) {
         if ($paymentType == 'paypal') {
